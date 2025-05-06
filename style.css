@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar*/
+#navbarSupportedContent{margin:auto;}
+
+.nav-item {
+    font-size: 18px;
+}
+
+a.nav-link:hover {
+    color: rgb(216, 13, 63);
+}
+
+/*section1*/
+
+.img1head {
+    font-size: 52px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/*client*/
+img.client1:hover {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+img.client2:hover {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+img.client3:hover {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+img.client4:hover {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+/*section2*/
+.sec2img {
+    background-color: rgb(34, 32, 32);
+
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.sec2h1 {
+    font-size: 36px;
+}
+
+.sec2p {
+    font-size: 16.5px;
+}
+
+.sec2btn {
+    width: 128px;
+    height: 43px;
+}
+
+/*section2 card*/
+
+.card1 {
+    background-color: rgb(34, 32, 32);
+}
+
+.card12 {
+    background-color: rgb(34, 32, 32);
+}
+
+.card13 {
+    background-color: rgb(34, 32, 32);
+}
+
+.card14 {
+    background-color: rgb(34, 32, 32);
+}
+
+.sec2p2 {
+    color: rgb(189, 186, 186);
+    font-size: 14.5px;
+}
+
+/*card2*/
+.card21 {
+    position: relative;
+}
+.modi2{border: 1px solid gray; }
+.modi2:hover{
+    border: 1px solid red;}
+.modi2 .ico:hover{color: rgb(231, 31, 31);}
+.modi3{border: 1px solid gray; }
+.modi3:hover{
+    border: 1px solid red;}
+.modi3 .ico:hover{color: rgb(231, 31, 31);}
+.modi4{border: 1px solid gray; }
+.modi4:hover{
+    border: 1px solid red;}
+.modi4 .ico:hover{color: rgb(231, 31, 31);}
+    
+/*services*/
+    .service {
+        background-color: rgb(34, 32, 32);
+    
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+        -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    }
+    .line{color: #e03a3c;}
+    .serviceslide1{background-color: rgb(51, 50, 50); filter: brightness(90%);}
+ .serviceslide1:hover{transition-timing-function: linear;filter: brightness(100%);}
+ .serviceslide2{background-color: rgb(51, 50, 50); filter: brightness(90%);}
+ .serviceslide2:hover{transition-timing-function: linear;filter: brightness(100%);}
+ .serviceslide3{background-color: rgb(51, 50, 50); filter: brightness(90%);}
+ .serviceslide3:hover{transition-timing-function: linear;filter: brightness(100%);}
+ .serviceslide4{background-color: rgb(51, 50, 50); filter: brightness(90%);}
+ .serviceslide4:hover{transition-timing-function: linear;filter: brightness(100%);}
+ .serviceslide5{background-color: rgb(51, 50, 50); filter: brightness(90%);}
+ .serviceslide5:hover{transition-timing-function: linear;filter: brightness(100%);}
+ .serviceslide6{background-color: rgb(51, 50, 50); filter: brightness(90%);}
+ .serviceslide6:hover{transition-timing-function: linear;filter: brightness(100%);}
+ 
+ /*portfolio*/
+ .pop {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+    transition: all 0.2s ease-in-out;
+    z-index: 3;
+}
+
+
+.img:hover .pop
+{visibility: visible;
+    display: block;
+    animation-name: pulse;
+    animation-duration: 0.2s;
+}
+.img:hover{visibility: visible;
+    display: block;
+    animation-name: pulse;
+    animation-duration: 0.2s;}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+/*testimonial2*/
+  /* Card styling */
+  .sechead2 {
+    position: relative;
+    opacity: 0.1;
+    font-size: 50px;
+}
+
+.sechead21 {
+    position: absolute;
+    
+    right: 37%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+}
+  .card4 {
+   
+    border-radius: 10px;
+}
+/* Quote styling */
+.testcontent  {
+    font-style: italic;
+    padding: 40px 20px 20px 20px;
+    background-color:rgb(241, 239, 239);
+    
+}
+/* Profile styling */
+.testprofile img {
+    
+    width: 85px!important;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:5px 10px 10px 10px;
+    border:2px solid white;
+}
+/*pricing*/
+.pricing {
+    background-color: rgb(34, 32, 32);
+
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+.btn-price{
+outline: 1px solid white; }
+button.btn-price:hover{background-color: #e03a3c;}
+
+.card5{height: 560px;border-radius: 3px;padding-top: 10px; }
+
+
+
+/*questions*/
+.accordion-button:hover{color:red;}
+.accordion-collapse{background-color: #f7a9ab;}
+/*team*/
+.team {
+    background-color: rgb(34, 32, 32);
+
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+.card6{background-color: #353535;}
+.icons i{width: 30px; border-radius: 3px;background-color: rgb(207, 206, 206);}
+.icons {
+    visibility: hidden;
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 100%;
+    
+    transition: all 0.2s ease-in-out;
+    z-index: 3;
+    
+}
+.icons i:hover{background-color: #e03a3c; width: 30px;}
+
+
+.card6:hover .icons
+{visibility: visible;
+    display: block;
+    animation-name: pulse;
+    animation-duration: 0.2s;
+   
+    
+}
+
+    @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      @media screen and (max-width:768px){
+        .team{height:3150px;}
+      }
+      
+
+        
+      
+      /*contact*/
+     .submit:hover{opacity: 0.9;}
+     .form:hover{border: 1px solid red;}
+       .loc i{ border-radius: 55px;border: 2px dotted red; }
+       .call i{ border-radius: 55px;border: 2px dotted red; }
+       .email i{ border-radius: 55px;border: 2px dotted red; }
+       .callus{background-color: white;}
+    /*footer*/
+    .footp{font-size: 14px;}
+    .new{font-size: 17px;}
+    .btnfooter{background-color:#353535 ;
+        border: 1px solid gray; }
+        .iconfoot i{border: 1px solid white; border-radius: 30px;}
+        .iconfoot i:hover{border: 1px solid red;}
+        button.btnfoot{border-radius: 0;}
+        input.inputemail{ border: 1px solid red; background-color: transparent; border-radius: 0;}
+
+
